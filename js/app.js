@@ -46,4 +46,4 @@ if (responseSix === 'yes' || responseSix === 'y') {
   alert('Bummer, sounds like you found a new hobby! I can teach you!');
 }
 
-alert('Again, welcome to my page ' + responseOne + ' enjoy your stay!')
+alert('Again, welcome to my page ' + responseOne + ' enjoy your stay!');
