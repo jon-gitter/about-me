@@ -27,6 +27,7 @@ article h2 {
   font-size: 18px;
   text-decoration: underline;
   width: fit-content;
+  color: maroon;
 }
 
 article p {
@@ -37,7 +38,21 @@ article ul {
   list-style-type: circle;
   margin: 10px;
 }
+
 aside {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 50px;
+}
+
+aside h3 {
+  margin: 2px;
+  font-style: italic;
+}
+
+#professionallinks {
+  margin: 20px;
+}
+
+#funlinks {
+  margin: 20px;
 }
