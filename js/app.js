@@ -22,15 +22,20 @@ function questionOne () {
 
 questionOne();
 
-// //second question
-// let responseThree = prompt('Is your favorite college Texas A&M?').toLowerCase();
-// if (responseThree === 'yes' || responseThree === 'y') {
-//   //console.log('Third question is correct.')
-//   alert('Awesome! Always great to meet another Aggie!');
-//   correctAnswers++;
-// } else if (responseThree === 'no' || responseThree === 'n') {
-//   alert('Looks like you\'re not coming to the football party...');
-// }
+//second question
+
+function questionTwo(){
+  let responseThree = prompt('Is your favorite college Texas A&M?').toLowerCase();
+  if (responseThree === 'yes' || responseThree === 'y') {
+    //console.log('Third question is correct.')
+    alert('Awesome! Always great to meet another Aggie!');
+    correctAnswers++;
+  } else if (responseThree === 'no' || responseThree === 'n') {
+    alert('Looks like you\'re not coming to the football party...');
+  }
+}
+
+questionTwo();
 
 // //third question
 // let responseFour = prompt('Is you favorite food steak?').toLowerCase();
