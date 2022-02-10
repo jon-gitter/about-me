@@ -38,9 +38,15 @@ article ul {
   margin: 10px;
 }
 
+ol {
+  list-style: decimal;
+  margin: 10px;
+}
+
 aside {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 50px;
+  margin: auto;
+  
 }
 
 aside h3 {
