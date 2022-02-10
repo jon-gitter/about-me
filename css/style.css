@@ -20,6 +20,8 @@ article {
   text-align: left;
   width: 500px;
   margin: 25px;
+  border: 2px solid;
+  padding: 20px;
 }
 
 article h2 {
@@ -27,10 +29,6 @@ article h2 {
   text-decoration: underline;
   width: fit-content;
   color: maroon;
-}
-
-article p {
-  margin: 10px;
 }
 
 article ul {
@@ -45,8 +43,7 @@ ol {
 
 aside {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: auto;
-  
+  margin:;
 }
 
 aside h3 {
@@ -55,9 +52,11 @@ aside h3 {
 }
 
 #professionallinks {
-  margin: 20px;
+  margin: 10px;
+  text-align: center;
 }
 
 #funlinks {
-  margin: 20px;
+  margin: 10px;
+  text-align: center;
 }
