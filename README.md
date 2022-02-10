@@ -1,7 +1,7 @@
 # Lab: 02 - About Me, With a Guessing Game
 
-## Project name = About Me
-I built a site that greets people and 
+## Project name - About Me
+I built a site that greets people and asks them a series of questions.  Also displays information about myself.  
 
 ### Author: Jon Gitter
 
@@ -25,15 +25,19 @@ I built a site that greets people and
   
 # Lab: 02 - About Me, With a Guessing Game
 
-## Project Name
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+## Project Name - About Me
+  - I built a site that greets people and asks them a series of questions.  Also displays information about myself.  I have added additional games to have the user guess for correct information.  User is notified on correct or incorrect answers. 
 
-### Author: Student/Group Name
+### Author: Jon Gitter/Ben/Nathan
 
 #### Links and Resources
   - submission PR
   - Any Links you used as reference
 
 #### Reflections and Comments
-  - Consider including the answers to your daily journal and submission questions here
-  - This is also a good place to reflect on the tools and resources used and learned
+  - Loops within loops were difficult to master for me today
+  - Need to study loops
+  - Need to better understand how to call on arrays and their use
+  - I need to think more like a computer on processing information and getting it to display/run code like I want it to
+  - I'm stronger in CSS and HTML then I thought
+  - I learned that inside the {} of a for loop is where the loop will continue to get executed the number of times you tell it to run based on the () after the for
