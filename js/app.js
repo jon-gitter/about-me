@@ -129,6 +129,5 @@ questionSeven();
 
 alert('My favorite movie genres are action, drama, and comedy.');
 
-let finalCorrect = alert('Congrats you got ' + correctAnswers + ' answer(s) right!');
+alert('Congrats you got ' + correctAnswers + ' answer(s) right!');
 //console.log(correctAnswers);
-
