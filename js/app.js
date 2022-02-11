@@ -24,7 +24,7 @@ questionOne();
 
 //second question
 
-function questionTwo(){
+function questionTwo() {
   let responseThree = prompt('Is your favorite college Texas A&M?').toLowerCase();
   if (responseThree === 'yes' || responseThree === 'y') {
     //console.log('Third question is correct.')
@@ -39,45 +39,45 @@ questionTwo();
 
 // //third question
 
-function questionThree(){
+function questionThree() {
   let responseFour = prompt('Is you favorite food steak?').toLowerCase();
   if (responseFour === 'yes' || responseFour === 'y') {
-  //console.log('Fourth question is correct.')
+    //console.log('Fourth question is correct.')
     alert('Great taste! My favorite food is steak too!');
     correctAnswers++;
-} else if (responseFour === 'no' || responseFour === 'n') {
-  alert('It\'s a real shame we couldn\'t agree on chow.');
-}
+  } else if (responseFour === 'no' || responseFour === 'n') {
+    alert('It\'s a real shame we couldn\'t agree on chow.');
+  }
 }
 questionThree();
 
 // //fourth question
 
-function questionFour(){
+function questionFour() {
 
-let responseFive = prompt('Have you traveled outside your country?').toLowerCase();
+  let responseFive = prompt('Have you traveled outside your country?').toLowerCase();
   if (responseFive === 'yes' || responseFive === 'y') {
-  //console.log('Fifth question is correct.')
-   alert('Me too! I\'m sure you had fun like me.');
-  correctAnswers++;
-} else if (responseFive === 'no' || responseFive === 'n') {
+    //console.log('Fifth question is correct.')
+    alert('Me too! I\'m sure you had fun like me.');
+    correctAnswers++;
+  } else if (responseFive === 'no' || responseFive === 'n') {
     alert('Life\'s too short, get out there and explore!');
-}
+  }
 }
 questionFour();
 
 // //fifth question
 
-function questionFive(){
+function questionFive() {
 
-let responseSix = prompt('Do you like to fly fish?').toLowerCase();
-if (responseSix === 'yes' || responseSix === 'y') {
-  //console.log('Sixth question is correct.')
-  alert('A fellow fisherman! Let\'s go fishing!');
-  correctAnswers++;
-} else if (responseSix === 'no' || responseSix === 'n') {
-  alert('Bummer, sounds like you found a new hobby! I can teach you!');
-}
+  let responseSix = prompt('Do you like to fly fish?').toLowerCase();
+  if (responseSix === 'yes' || responseSix === 'y') {
+    //console.log('Sixth question is correct.')
+    alert('A fellow fisherman! Let\'s go fishing!');
+    correctAnswers++;
+  } else if (responseSix === 'no' || responseSix === 'n') {
+    alert('Bummer, sounds like you found a new hobby! I can teach you!');
+  }
 }
 questionFive();
 
@@ -85,10 +85,10 @@ alert('Again, welcome to my page ' + responseOne + ' enjoy your stay!');
 
 // 6th question
 
-function questionSix(){
+function questionSix() {
 
   let myNumber = '5';
-  
+
   for (let i = 0; i < 4; i++) {
     let userNumber = prompt('Guess my favorite number between 1 and 10.');
     if (userNumber === myNumber) alert('Correct!');
@@ -107,23 +107,23 @@ questionSix();
 
 // 7th question
 
-function questionSeven(){
-let myGenres = ['action', 'drama', 'comedy'];
+function questionSeven() {
+  let myGenres = ['action', 'drama', 'comedy'];
 
-for (let i = 0; i < 6; i++) {
-  let userGenreGuess = prompt('Guess one of my favorite movie genres!').toLowerCase();
-  for (let j = 0; j < myGenres.length; j++) {
-    if (userGenreGuess === myGenres[j]) {
-      alert('Correct!');
-      correctAnswers++;
-      j = 10;
-      i = 10;
+  for (let i = 0; i < 6; i++) {
+    let userGenreGuess = prompt('Guess one of my favorite movie genres!').toLowerCase();
+    for (let j = 0; j < myGenres.length; j++) {
+      if (userGenreGuess === myGenres[j]) {
+        alert('Correct!');
+        correctAnswers++;
+        j = 10;
+        i = 10;
+      }
+    }
+    if (i == 5) {
+      alert('Sorry no more guesses.');
     }
   }
-  if (i == 5) {
-    alert('Sorry no more guesses.');
-  }
-}
 }
 questionSeven();
 
@@ -132,5 +132,3 @@ alert('My favorite movie genres are action, drama, and comedy.');
 let finalCorrect = alert('Congrats you got ' + correctAnswers + ' answer(s) right!');
 //console.log(correctAnswers);
 
-//simple change!!!! 
-//simple change!!!! !!
