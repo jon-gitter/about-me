@@ -23,7 +23,7 @@ I built a site that greets people and asks them a series of questions.  Also dis
   
   
   
-# Lab: 02 - About Me, With a Guessing Game
+# Lab: 03 - Extend your 'About Me' and guessing game
 
 ## Project Name - About Me
   - I built a site that greets people and asks them a series of questions.  Also displays information about myself.  I have added additional games to have the user guess for correct information.  User is notified on correct or incorrect answers. 
@@ -41,3 +41,25 @@ I built a site that greets people and asks them a series of questions.  Also dis
   - I need to think more like a computer on processing information and getting it to display/run code like I want it to
   - I'm stronger in CSS and HTML then I thought
   - I learned that inside the {} of a for loop is where the loop will continue to get executed the number of times you tell it to run based on the () after the for
+
+
+
+
+  # Lab: 03 - About Me, With a Guessing Game
+
+## Project Name - About Me
+  - I built a site that greets people and asks them a series of questions.  Also displays information about myself.  I have added additional games to have the user guess for correct information.  User is notified on correct or incorrect answers. 
+
+### Author: Navigator Jon Gitter  Driver Thomas Basham
+
+#### Links and Resources
+  - my repo https://github.com/jon-gitter/about-me
+  - Thomas' repo https://github.com/jon-gitter/about-me-
+
+#### Reflections and Comments
+  - fairly straightforward lab today.  I found it easy to add functions to both my repo as a navigator and Thomas' repo as a driver
+  - both of us made the mistake of not ACPing fully before pulling changed branches to our main repo.  Also good practice to close out of VS code when you partner is working so you don't accidentally add updates to the main branch that conflict with your partner's changes
+  - ACP often as both the driver and navigator
+  - the driver and navigator challenge was fun, I like the teamwork used today
+  - I have a strength working and communicating with others
+  - explaining some of the loops code I created yesterday to Thomas has really helped me better understand loops, I feel confident now.
