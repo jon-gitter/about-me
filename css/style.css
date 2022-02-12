@@ -13,13 +13,21 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
+    
+}
+
+#image {
+  border: none;
+  margin-left: 500px;
+  margin-right: 20px;
 }
 
 article {
   font-family:Arial, Helvetica, sans-serif;
-  text-align: left;
   width: 500px;
-  margin: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
   border: 2px solid;
   padding: 20px;
 }
@@ -43,7 +51,6 @@ ol {
 
 aside {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin:;
 }
 
 aside h3 {
@@ -61,4 +68,8 @@ aside h3 {
   text-align: center;
 }
 
+#image {
+  margin-left: auto;
+  margin-right: auto;
+}
 /* see page 375 for formatting of columns for what I want to do */
